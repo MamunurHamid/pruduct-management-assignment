@@ -5,7 +5,7 @@ Our team consists of 3 people -
 3. Rumaia Rahman Mridula - ID: 2154901029
 
 Our Home Page where we have a slider with Prev and Next button - 
-![image](C:\Users\MAMUNUR HAMID\Pictures\Screenshots)
+![image](https://github.com/MamunurHamid/pruduct-management-assignment/blob/main/productShowAssignment-main/downloadedImages/Screenshot%20(23).png)
 
 Now we have our Product adding page -
 ![image](https://github.com/GOATAFI/productShowAssignment/assets/120001914/7aac9175-dc3a-481f-a9e3-8f4065d39e33)
