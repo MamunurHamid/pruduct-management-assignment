@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add New Product</h1>
+        <form action="submit.php" method="POST" enctype="multipart/form-data" onsubmit="return validateForm()">
+            <input type="hidden" id="id" name="id" required>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="category">Category:</label>
+                <input type="text" id="category" name="category" required>
+            </div>
+            <div class="form-group">
+                <label for="image">Image:</label>
+                <input type="file" id="image" name="image" required>
+            </div>
+            <div class="form-group">
+                <label for="productionDate">Production Date:</label>
+                <input type="date" id="productionDate" name="productionDate" required>
+            </div>
+            <input type="submit" name="submit" value="Submit">
+            <a class="homeBtn"  href="index.php" >Go To Home</a>
+        </form>
+    </div>
+
+    <script src="validation.js"></script>
+</body>
+</html>
